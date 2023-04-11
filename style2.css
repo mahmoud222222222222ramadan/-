@@ -1,0 +1,72 @@
+body {
+
+  font-family: sans-serif;
+  font-size:  14pt;
+  background:  #444;              
+}
+.wrap{
+  margin: auto;
+  width: 65%; 
+}
+.header{
+  padding: 2em 0em; 
+}
+.logo{
+  float: left; 
+}
+.logo a {
+  display: block;
+}
+.nav {
+  float: right;  
+}
+.nav > ul > li {
+  display:inline-block; 
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  -webkit-transition: 0.9s; 
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 40px;
+  margin: 50px 0px;
+  color: white;
+text-align: left;
+}
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+.clearfix:after,        
+.clearfix:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.descript-wrapper {
+    float: left;
+    margin-bottom: 30px;  
+}
+.aio-icon-title {
+    font-size: 20px;
+    color: #62cf57;          
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
